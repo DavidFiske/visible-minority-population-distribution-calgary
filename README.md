@@ -40,7 +40,7 @@ Purpose of this project is to demonstrate the following skills:
 - Navigate the Map:
      - Press and hold the left mouse button to effortlessly drag and reposition the map.
 - Automatic Menu Adjustment:
-     - The menu automatically collapses based on the window height, providing an optimal viewing experience for different screen sizes.
+     - The menu automatically collapses based on the window size, providing an optimal viewing experience for different screen sizes.
 
 
 ## Credits
