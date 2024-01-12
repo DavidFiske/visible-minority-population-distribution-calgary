@@ -27,7 +27,18 @@ Purpose of this project is to demonstrate the following skills:
 
 ## Usage
 - The main project file is index.html
-- All files are required. 
+- All files are required.
+
+
+## Controls
+- Explore Results:
+     - Click on each menu item to show the population distribution for each category.
+- Area Insights:
+     - Discover more about each dissemination area by clicking on it.
+- Zoom Controls:
+     - Use the mouse wheel or click the + / - buttons to zoom in and out for a closer look.
+- Navigate the Map:
+     - Press and hold the left mouse button to effortlessly drag and reposition the map.
 
 
 ## Potential Improvements
