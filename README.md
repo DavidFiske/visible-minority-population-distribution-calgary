@@ -27,8 +27,9 @@ Purpose of this project is to demonstrate the following skills:
 - All files are required. 
 
 
-## Potential Issues
-- This version is not designed to be responsive.
+## Potential Improvements
+- Responsive Web Design:
+     - The menu should collapse when the screen size gets smaller
 
 
 ## Credits
