@@ -8,6 +8,9 @@ Purpose of this project is to demonstrate the following skills:
 - Data Visualization:
      - Data Processing
      - Understanding Data Scales
+- Design Skills:
+     - UI/UX Design
+     - Responsive Design
 - Geospatial Knowledge:
      - Geography and GIS (Geographic Information Systems)
 - Leaflet Library Knowledge
@@ -28,7 +31,7 @@ Purpose of this project is to demonstrate the following skills:
 
 
 ## Potential Improvements
-- Responsive Web Design:
+- Responsive Design:
      - The menu should collapse when the screen size gets smaller
 
 
