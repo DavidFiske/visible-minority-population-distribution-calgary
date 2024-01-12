@@ -4,8 +4,8 @@
  *              Shows the distribution of visible minority population in Calgary
  *
  * @author:     David Fiske
- * Date:        Jan 09, 2024
- * Version:     1.0
+ * Date:        Jan 12, 2024
+ * Version:     1.1
  *******************************************************************************/
 
 /*******************************************************************************
