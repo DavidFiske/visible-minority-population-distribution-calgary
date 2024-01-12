@@ -93,9 +93,10 @@ var controlLayersExpanded = L.control.layers(overlays, null, {
     collapsed: false,
 });
 
-// Function to switch between the two layer controls based on the window height
+// Switch between the two layer controls based on the window resize
 function updateCollapseState() {
-    if (window.innerHeight <= 600) {
+    if ((window.innerHeight <= 600) || 
+		(window.innerWidth <= window.innerHeight)) {
         controlLayersCollapsed.addTo(map);
         map.removeControl(controlLayersExpanded);
     } else {
@@ -104,7 +105,7 @@ function updateCollapseState() {
     }
 }
 
-// Event listener to update the collapsed property on window resize
+// Update the collapsed property on window resize
 window.addEventListener('resize', updateCollapseState);
 
 // Call the function when the map is initially loaded
