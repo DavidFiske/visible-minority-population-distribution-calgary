@@ -1,0 +1,52 @@
+<!-- **************************************************************************************
+ * Filename:    index.html
+ * Purpose:     Visible Minority Population Distribution in Calgary. 
+ *              Starting point to load all of the project content.
+ *
+ * @author:     David Fiske
+ * Date:        Jan 09, 2024
+ * Version:     1.0
+ ************************************************************************************** -->
+
+<!DOCTYPE html>
+
+<!-- Define language as Canadian English 
+ *************************************** -->
+<html lang="en-CA">
+<head>
+	<title>Calgary Population Distribution</title>
+
+	<!-- Define character set and other meta information 
+	 *************************************************** -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Calgary Culture Map">
+	<meta name="keywords" content="Calgary, Culture, Map">
+	<meta name="author" content="David Fiske">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Link stylesheets 
+	 ******************** -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>
+
+<!-- Leaflet - a JavaScript library for interactive maps
+ * https://leafletjs.com
+ ******************************************************* -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<!-- Sample Data for Calgary - Developed using Python, Excel, and QGIS
+* Includes GeoJSON multipoligon coordinates + Census Data from Statistics Canada
+***************************************************************************************************************************************************** -->
+<script type="text/javascript" src="javascript/sampleDataCalgary.js"></script>
+
+<!-- Choropleth Map of Calgary -
+ * Shows the distribution of visible minority population in Calgary
+ ****************************************************************** -->
+<script type="text/javascript" src="javascript/main.js"></script>
