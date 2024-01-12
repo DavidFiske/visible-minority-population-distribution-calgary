@@ -78,9 +78,37 @@ var overlays = {
 	"White":polygonNonVisible
 };
 
+/* 
 L.control.layers(overlays,null,{
 	collapsed:false,
 }).addTo(map);
+*/
+
+// Create two instances of the layer control, one initially collapsed and the other initially expanded
+var controlLayersCollapsed = L.control.layers(overlays, null, {
+    collapsed: true,
+});
+
+var controlLayersExpanded = L.control.layers(overlays, null, {
+    collapsed: false,
+});
+
+// Function to switch between the two layer controls based on the window height
+function updateCollapseState() {
+    if (window.innerHeight <= 600) {
+        controlLayersCollapsed.addTo(map);
+        map.removeControl(controlLayersExpanded);
+    } else {
+        map.removeControl(controlLayersCollapsed);
+        controlLayersExpanded.addTo(map);
+    }
+}
+
+// Event listener to update the collapsed property on window resize
+window.addEventListener('resize', updateCollapseState);
+
+// Call the function when the map is initially loaded
+updateCollapseState();
 
 
 /*******************************************************************************
