@@ -39,11 +39,8 @@ Purpose of this project is to demonstrate the following skills:
      - Use the mouse wheel or click the + / - buttons to zoom in and out for a closer look.
 - Navigate the Map:
      - Press and hold the left mouse button to effortlessly drag and reposition the map.
-
-
-## Potential Improvements
-- Responsive Design:
-     - The menu should collapse when the screen size gets smaller
+- Automatic Menu Adjustment:
+     - The menu automatically collapses based on the window height, providing an optimal viewing experience for different screen sizes.
 
 
 ## Credits
